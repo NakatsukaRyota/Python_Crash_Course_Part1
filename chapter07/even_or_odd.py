@@ -1,0 +1,9 @@
+number = input("なにか数を入力してください。奇数か偶数か判定します: ")
+number = int(number)
+
+if number % 2 == 0:
+    print(f"\n数{number}は偶数です。")
+else:
+    print(f"\n数{number}は奇数です。")
+
+    
