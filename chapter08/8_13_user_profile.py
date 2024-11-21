@@ -6,8 +6,8 @@ def build_profile(first, last, **user_info):
 
 
 user_profile = build_profile('たかのり', '鈴木',
-                             location='東京',
-                             organization='PyCon JP Association',
-                             company='BeProud')
+                            location='東京',
+                            organization='PyCon JP Association',
+                            company='BeProud')
 
 print(user_profile)

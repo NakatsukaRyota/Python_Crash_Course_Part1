@@ -1,0 +1,17 @@
+unprinted_designs = ["iPhoneケース", "ロボットのペンダント", "12面体"]
+completed_models = []
+
+
+def print_models(unprinted_designs, completed_models):
+    while unprinted_designs:
+        current_design = unprinted_designs.pop()
+        print(f"3D印刷中: {current_design}")
+        completed_models.append(current_design)
+
+def show_completed_models(completed_models):
+    print("\n以下のモデルが3D印刷されました。")
+    for completed_model in completed_models:
+        print(completed_model)
+
+print_models(unprinted_designs, completed_models)
+show_completed_models(completed_models)
