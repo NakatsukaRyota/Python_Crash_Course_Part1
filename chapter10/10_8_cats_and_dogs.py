@@ -7,7 +7,7 @@ for filename in filenames:
 
     path = Path(filename)
     try:
-        contents = path.read_text()
+        contents = path.read_text(encoding="utf-8")
     except FileNotFoundError:
         print("  すみません、ファイルが見つかりません。")
     else:
